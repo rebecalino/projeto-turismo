@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    background-color: #F5F4F0;
 }
 
 /*caixa principal do site*/
@@ -13,6 +14,7 @@
 h6{ 
     margin-bottom: 8px;
     font-size: 16px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #E1624F;
     
@@ -54,26 +56,6 @@ h2 + p {
 }
 
 /*seções */ 
-h3 { 
-    margin: 20px 0 4px;
-}
-
-h3 + p { 
-    color:  #333333;
-    margin-bottom: 24px;
-    line-height: 22px;
-}
-/*não consegui colocar o tópico da ul para dentro do container. foi a alternativa que consegui encontrar */
-ul li{
-    margin-left: 30px;
-    color: blue;
-    font-weight: 600;
-    
-}
-
-ul li::marker {
-    color: #333333;
-}
 
 #n2 { 
     margin: 48px 0px;
@@ -81,6 +63,27 @@ ul li::marker {
 
 #n3 { 
     margin: 48px 0px 40px;
+}
+
+h3 { 
+    margin: 20px 0 4px;
+}
+
+h3 + p { 
+    color:  #333333;
+    margin:8px 0 24px;
+    line-height: 22px;
+}
+/*não consegui colocar o tópico da ul para dentro do container. foi a alternativa que consegui encontrar */
+ul li{
+    margin-left: 30px;
+    color: #0C51A7;
+    font-weight: 700;
+    
+}
+
+ul li::marker {
+    color: #333333;
 }
 
 footer{
