@@ -67,6 +67,7 @@ h2 + p {
 
 h3 { 
     margin: 20px 0 4px;
+    color: #1B1B1B;
 }
 
 h3 + p { 
