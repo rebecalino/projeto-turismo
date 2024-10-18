@@ -1,0 +1,92 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*caixa principal do site*/
+#container{ 
+    margin: 88px 80px;
+}
+/*introdução*/
+h6{ 
+    margin-bottom: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #E1624F;
+    
+}
+
+#principal { 
+    margin: 40px 0 24px;
+}
+
+figcaption { 
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333333;
+    line-height: 22px;
+}
+/*divisões do site*/
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
+}
+
+/*imagens*/ 
+img { 
+    border-radius: 28px;
+    width: 100%;
+    object-fit: cover;
+}
+/*introdução do desenvolvimento*/
+#contentintro { 
+    margin: 64px 0px;
+}
+
+h2 + p {
+    margin-top: 8px;
+    color: #333333;
+    line-height: 22px;
+}
+
+/*seções */ 
+h3 { 
+    margin: 20px 0 4px;
+}
+
+h3 + p { 
+    color:  #333333;
+    margin-bottom: 24px;
+    line-height: 22px;
+}
+/*não consegui colocar o tópico da ul para dentro do container. foi a alternativa que consegui encontrar */
+ul li{
+    margin-left: 30px;
+    color: blue;
+    font-weight: 600;
+    
+}
+
+ul li::marker {
+    color: #333333;
+}
+
+#n2 { 
+    margin: 48px 0px;
+}
+
+#n3 { 
+    margin: 48px 0px 40px;
+}
+
+footer{
+    text-align: center;
+    color: #333333;
+    margin: 65px 0 48px;
+    font-family: "Alice", serif;
+    font-size: 16px;
+}
